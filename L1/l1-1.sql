@@ -19,10 +19,10 @@ BACKUP DATABASE NewDatabase
 	TO DISK = 'F:\7db\NewDatabase.bak';
 GO
 
-DROP DATABASE [NewDatabase]
+DROP DATABASE NewDatabase
 GO
 
-RESTORE DATABASE [NewDatabase] 
+RESTORE DATABASE NewDatabase 
 	FROM  DISK = 'F:\7db\NewDatabase.bak';
 GO
 
